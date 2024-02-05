@@ -1,0 +1,55 @@
+a{
+    color: #242424;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: Manrope;
+}
+
+ .important{
+    color: #A5b4fc;
+    font-style: normal;
+ }
+
+ h1{
+    font-size: 3.5em;
+    color: #A5b4fc;
+    font-family: Montserrat;
+ }
+ 
+/* h2{
+    color: #f9f8ff;
+ }
+
+ p, li{
+    font-size: 1.1em;
+    font-family: Manrope;
+    color: #f9f8ff;
+ } */
+
+ .profil{
+    background-color: #1f2039;
+    color: #f9f8ff;
+ }
+ .profil a{
+    color: #f9f8ff;
+    border-radius: 50px;
+ }
+
+ .competences{
+   border-right: 1px solid #8e86b5;
+   border-bottom: 1px solid #8e86b5;
+ }
+
+ .cta{
+   background: linear-gradient(90deg, #8e86b5, #acaeed);
+   color: white;
+   border-radius: 50px;
+ }
+ .cta:hover{
+   background: linear-gradient(90deg, #696484, #8788BA);
+ }
+
+ .entete a:hover, .pied_de_page a:hover{
+   opacity: 0.5;
+ }
+ 
