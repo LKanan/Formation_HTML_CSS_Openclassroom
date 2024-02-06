@@ -111,3 +111,34 @@ On peut aussi créer des elipses avec du CSS en utilisant la syntaxe suivante:
 
 ![Selecteur special 1](supports/selecteur_special1.png)
 ![Selecteur special 2](supports/selecteur_special2.png)
+
+### 12. STRUCTURATION DE LA PAGE WEB
+
+![Selecteur special 2](supports/la_balise_header.png)
+
+![Selecteur special 2](supports/la_balise_nav.png)
+
+![Selecteur special 2](supports/la_balise_main.png)
+
+![Selecteur special 2](supports/la_balise_aside.png)
+
+![Selecteur special 2](supports/la_balise_footer.png)
+
+**En resumé on a :**
+
+![Selecteur special 2](supports/synthese_structuration_page.jpg)
+
+![Selecteur special 2](supports/resume_final_structuration_page.png)
+
+### 12. LES MODELES DE BOITES EN HTML
+
+**Remarque :**
+![Remarques sur l'utilisation des models de boites](supports/remarque_sur_les_models_de_boites.png)
+
+### 13. LES MARGES EN CSS
+
+![Les marges padding et margin en CSS](supports/margin_et_padding.png )
+
+![Conclusion su le margin et le padding](supports/conclusion_margin_padding.png)
+
+Il n'est cependant pas possible de centrer verticalement un bloc avec cette technique. Seul le centrage horizontal est permis.
