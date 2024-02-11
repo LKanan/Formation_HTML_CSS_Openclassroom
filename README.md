@@ -129,6 +129,7 @@ On peut aussi créer des elipses avec du CSS en utilisant la syntaxe suivante:
 ![Selecteur special 2](supports/synthese_structuration_page.jpg)
 
 ![Selecteur special 2](supports/resume_final_structuration_page.png)
+<<<<<<< HEAD
 
 ### 12. LES MODELES DE BOITES EN HTML
 
@@ -142,3 +143,5 @@ On peut aussi créer des elipses avec du CSS en utilisant la syntaxe suivante:
 ![Conclusion su le margin et le padding](supports/conclusion_margin_padding.png)
 
 Il n'est cependant pas possible de centrer verticalement un bloc avec cette technique. Seul le centrage horizontal est permis.
+=======
+>>>>>>> a8e03c391c8898a8774a9da98b8662e43d1d012f
