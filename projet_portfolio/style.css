@@ -5,7 +5,7 @@ a{
     font-family: Manrope;
 }
 
- .important{
+ em{
     color: #A5b4fc;
     font-style: normal;
  }
@@ -16,10 +16,11 @@ a{
     font-family: Montserrat;
  }
  
-/* h2{
+h2{
     color: #f9f8ff;
+    text-align: center;
  }
-
+/*
  p, li{
     font-size: 1.1em;
     font-family: Manrope;
@@ -33,6 +34,11 @@ a{
  main a{
     color: #f9f8ff;
     border-radius: 50px;
+ }
+ main section{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
  }
 
  .competences{
@@ -54,11 +60,18 @@ header a:hover, footer a:hover{
  }
 
 header{
-   padding: 20px 50px 20px 50px;
+   padding: 20px 50px;
+ }
+footer, nav{
+   display: flex;
+   justify-content: space-between;
+ }
+nav div{
+   justify-content: space-between;
  }
 
 footer{
-   padding: 20px 50px 20px 50px;
+   padding: 20px 50px;
  }
 
 .carre-contenu{

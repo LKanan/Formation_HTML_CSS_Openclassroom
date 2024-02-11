@@ -129,7 +129,6 @@ On peut aussi créer des elipses avec du CSS en utilisant la syntaxe suivante:
 ![Selecteur special 2](supports/synthese_structuration_page.jpg)
 
 ![Selecteur special 2](supports/resume_final_structuration_page.png)
-<<<<<<< HEAD
 
 ### 12. LES MODELES DE BOITES EN HTML
 
@@ -143,5 +142,31 @@ On peut aussi créer des elipses avec du CSS en utilisant la syntaxe suivante:
 ![Conclusion su le margin et le padding](supports/conclusion_margin_padding.png)
 
 Il n'est cependant pas possible de centrer verticalement un bloc avec cette technique. Seul le centrage horizontal est permis.
-=======
->>>>>>> a8e03c391c8898a8774a9da98b8662e43d1d012f
+
+### 14. LA MISE EN PAGE AVEC FLEXBOX
+
+![Image de l'introduction à l'utilisation de flexbox](supports/introduction_flex_box.png)
+
+![Image du retour à la ligne des elements d'un conteneur(responsivité)](supports/retour_a_la_ligne_responsive.png)
+
+Lorsque on utilise la proprieté-valeur `flex-direction: row-reverse` l'inversion commence à la position du dernier element et on continue avec les elements qui le suivent en partant de la droite vers la gauche, ce qui fait que le dernier element sera l'ancien premier element et il sera le plus à droite de l'ancien premier element aui est devenu le premier element. 
+**Remarquez** que quand vous mettez la direction inversée, le début et la fin sont aussi inversés.
+cela signifie que meme le `justify-content: flexs-start` et `justify-content: flex-end` sont inversées
+
+![Alignement des elements d'un conteneur](supports/alignement_des_elements.png)
+
+![Alignement sur axe secondaire des elelments](supports/alignement_sur_axe_secondaire.png)
+
+- `align-content` permet d'aligner les blocs se trouvant dans un conteneur.
+  
+![Alignement avec align-content](supports/explication_align_content.png)
+
+- Proprieté **`Order`**
+
+![Proprieté order de flexbox](supports/propriete_Order_de_flex_box.png)
+
+- On a aussi la proprieté **`flex-flow`** 
+
+![Proprieté flex-flow de flexbox](supports/flex-flow_de_flex_box.png)
+
+![Resumé sur l'alignement des boites](supports/resume_alignement_box.png)
