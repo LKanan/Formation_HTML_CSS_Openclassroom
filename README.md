@@ -45,7 +45,7 @@ Pour utiliser une police externe sur notre page web on va utiliser la proprieté
 
 ![Utilisation de la police de Google Font sur notre page web](supports/comment_ajouter_une_police_de_google_font_dans_le_fichier.png)
 
-## 4. Soulignement du texte en CSS
+### 4. Soulignement du texte en CSS
 
 Pour définir des soulignement on utilise la proprieté `text-decoration` et il peut prendre comme valeurs, les valeurs listés sur la photo suivante:
 
@@ -170,3 +170,92 @@ cela signifie que meme le `justify-content: flexs-start` et `justify-content: fl
 ![Proprieté flex-flow de flexbox](supports/flex-flow_de_flex_box.png)
 
 ![Resumé sur l'alignement des boites](supports/resume_alignement_box.png)
+
+### 15. LE CSS GRID
+
+Le css grid permet d'aligner le contenu d'un conteneur d'elements HTML sous forme de grille soit en colonne soit en ligne, lorsqu'on utilise la proprieté `grid-template-columns` en specifiant ses valeurs on definit directement le nombre de colonnes et automatiquement ils definit le nombre de lignes nécessaires ex: `grid-template-columns: 100px 200px 300px 200px 100px;` pour cet exemple  on définit 5 colonnes dont chacune d'elle peut avoir sa largeur et la définition des largeurs définit le nombre des colonnes comme on l'a indiqué.
+La proprièté `grid-tempplate-rows` permet de specifier qu'on va arranger nos elements sous forme des lignes et pour ca on est obligé de specifier le nombre de colonnes comme dans cet exemple: 
+` grid-template-rows: 200px 300px 100px 300px;` suivi ou precedé `grid-template-columns: 200px 200px 200px 200px 200px;` 
+
+![Introduction su le css grid](supports/introduction_css_grid.png)
+
+Pour un exemple pratique avec le `grid-template-columns` on a :
+
+![Exemple pratique sur le css grid](supports/exemple_pratique_css_grid.png)
+
+Pour un exemple pratique avec le `grid-template-rows` on a :
+
+![Exemple pratique sur le css grid](supports/code_exemple_css_grid_rows.png)
+![Exemple pratique sur le css grid](supports/resultat_exemple_css_grid_rows.png)
+
+#### 1. LA PROPRIETE GRID-ROWS ET GRID-COLUMNS
+
+Si on veut avoir un resultat pareil:
+
+![Exemple d'utilisation de grid-row et grid-column](supports/exemple_grid_row_et_column.png)
+On doit cibler chaque element de la grille, et lui appliquer les tailles suivant le nombre de colonnes et le nombre des lignes.
+![Explication d'utilisation de grid-row et grid-column](supports/explication_grid_row%20et%20grid_column.png)
+Et ainsi dans le code on peut avoir la structure qui suit:
+![Suite explication d'utilisatiob de grid-row et grid-column](supports/suite_explication_grid_row_et_grid_column.png)
+
+**On a le resultat qui peut ressembler à ceci :**
+![Resultat d'un exemple](supports/resultat_grid_row_start.png)
+
+#### 2. LA PROPRIETE GRID-AREA
+
+![Photo explicative de la proprieté grid-area](supports/propriete_grid_area.png)
+
+#### 3. LA PROPRIETE ORDER DANS GRID
+
+![La proprieté order dans la proprieté grid](supports/propriete_order_dans_grid.png)
+
+#### 4. LA PROPRIETE REPEAT DE GRID
+
+![La combinaison grid-template-coumns avec repeat](supports/propriete_repeat_grid.png)
+
+**La propieté `gap`** permet d'aererer le contenu dans nos conteneur presque comme le ferait un `margin`, ex: `gap: 10px;` il permet d'espacer le contenu de mon conteneur de *10 px* .
+La propriété CSS **gap** permet de créer des espacements entre vos éléments. Si vous voulez garder les mêmes distances entre les rangées et les colonnes sans avoir à vous compliquer la vie, vous précisez simplement une valeur.
+
+#### 5. MELANGE DES PROPRIETES TEMPLATES-ROWS ET TEMPLATE-COLUMNS
+
+![Melange des proprietes template-rows et template-columns](supports/melange_template_rows_et_templates_columns.png)
+
+![Resume sur la propriete grid](supports/resume_sur_grid.png)
+
+### 16. LE CHOIX DES UNITES DE MESURE D'ELEMENTS
+
+![Image du choix des unités en css](supports/choix_des_unités_en_css.png)
+On peut avoir un exemple:
+![Image du choix des unités en css](supports/exemple_utilisation_fr.png)
+
+### MELANGE DES UNITES AVEC LES PROPRIETES GRID
+
+![Melanges des valeur pour les valeurs de proprieté de grid](supports/melange_des_unites_grid.png)
+
+![Deuxieme exemple de melange des unites](supports/melange_unites_2.png)
+
+### 16. LA PROPRIETE DISPLAY
+
+![Introduction sur la proprieté display](supports/introduction_sur_la_propriete_display.png)
+![Quelques valeurs du css display](supports/les_valeurs_de_display.png)
+
+### 17. LA PROPRIETE POSITION
+
+![Introduction sur la propriete position](supports/introduction_sur_la_propriete_position.png)
+- **Utilisation de la proprieté position avec la valeur `relative`**
+
+![Exemple d'utilisation de position avec la valeur relative](supports/utilisation_de_position_relative.png)
+
+- **Utilisation de la proprieté position avec la valeur `absolute`**
+
+![Exemple d'utilisation de position avec la valeur relative](supports/utilisation_position_absolute.png)
+
+![Explication générale sur les valeur de al proprieté position](supports/explication_generale_sur_les_valeurs_de_position.png)
+
+La propriété position **`unset`** réinitialise la propriété afin que sa valeur soit la valeur héritée depuis l'élément parent, ou soit la valeur initiale (s'il n'y a pas d'héritage).
+
+- **Gérez le chevauchement avec la propriété  `z-index`**
+
+![Introduction sur la proprieté z-index et exemple d'utilisation](supports/introduction_z-index.png)
+![exemple d'utilisation de z-index](supports/exemple_z-index.png)
+![Resultat de l'exemple sur z-index](supports/resultat_exemple_z-index.png)

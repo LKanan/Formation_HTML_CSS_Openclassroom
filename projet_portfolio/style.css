@@ -59,7 +59,7 @@ header a:hover, footer a:hover{
    opacity: 0.5;
  }
 
-header{
+header, footer{
    padding: 20px 50px;
  }
 footer, nav{
@@ -70,11 +70,35 @@ nav div{
    justify-content: space-between;
  }
 
-footer{
-   padding: 20px 50px;
- }
-
 .carre-contenu{
    padding: 50px;
  }
+
+ .grid-paysages{
+   display: grid;
+   grid-template-rows: 300px 300px 300px;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 15px;
+ }
+.grid-paysages img, 
+.grid-portraits img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+}
+
+.grid-portraits{
+   display: grid;
+   grid-template-rows: 300px 300px;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 15px;
+}
+
+.portfolio-section-photos{
+   background-color: white;
+}
+.portfolio-section-photos h2{
+   color: #242424;
+   margin-bottom: 80px;
+}
  
