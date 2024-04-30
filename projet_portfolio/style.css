@@ -1,6 +1,20 @@
+body{
+    font-family: Manrope, sans-serif;
+    font-size: 1em;
+}
 a{
     color: black;
+    text-decoration: none;
 }
-.important{
+em{
+    font-style: normal;
     color: #a5b4fc;
+}
+h1{
+    font-size: 3.5rem;
+    color: #a5b4fc;
+    font-family: Montserrat, sans-serif;
+}
+p{
+    font-size: 1.1rem;
 }
