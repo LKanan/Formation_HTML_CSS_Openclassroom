@@ -1,9 +1,11 @@
 body{
     font-family: Manrope, sans-serif;
     font-size: 1em;
+    background-color: #1f2039;
+    color: #f9f8ff;
 }
 a{
-    color: black;
+    color: #242424;
     text-decoration: none;
 }
 em{
@@ -15,6 +17,16 @@ h1{
     color: #a5b4fc;
     font-family: Montserrat, sans-serif;
 }
-p{
+h2{
+    color: #f9f8ff;
+}
+p, li{
     font-size: 1.1rem;
+    color: #f9f8ff;
+}
+.entete, .pied-de-page{
+    background-color: white;
+}
+.cta{
+    background: linear-gradient(#8e86b5, #acaeed);
 }
