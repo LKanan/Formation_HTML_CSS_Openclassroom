@@ -28,14 +28,18 @@ h2{
  } */
 
  main{
-    background-color: #1f2039;
-    color: #f9f8ff;
+    padding: 80px;
+ }
+ main h2{
+   background-color: #1f2039;
+   color: #f9f8ff;
  }
  main a{
     color: #f9f8ff;
     border-radius: 50px;
+
  }
- main section{
+ .accueil-photos, .accueil-introduction .contenu-apropos{
    display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
@@ -47,6 +51,7 @@ h2{
  }
 
  .cta{
+   display: inline-block;
    background: linear-gradient(90deg, #8e86b5, #acaeed);
    color: white;
    border-radius: 50px;
@@ -80,20 +85,18 @@ nav div{
    grid-template-columns: 1fr 1fr 1fr;
    gap: 15px;
  }
+ .grid-portraits{
+   display: grid;
+   grid-template-rows: 300px 300px;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 15px;
+}
 .grid-paysages img, 
 .grid-portraits img{
       width: 100%;
       height: 100%;
       object-fit: cover;
 }
-
-.grid-portraits{
-   display: grid;
-   grid-template-rows: 300px 300px;
-   grid-template-columns: 1fr 1fr 1fr;
-   gap: 15px;
-}
-
 .portfolio-section-photos{
    background-color: white;
 }

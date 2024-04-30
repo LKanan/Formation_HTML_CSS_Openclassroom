@@ -259,3 +259,7 @@ La propriété position **`unset`** réinitialise la propriété afin que sa val
 ![Introduction sur la proprieté z-index et exemple d'utilisation](supports/introduction_z-index.png)
 ![exemple d'utilisation de z-index](supports/exemple_z-index.png)
 ![Resultat de l'exemple sur z-index](supports/resultat_exemple_z-index.png)
+
+- **Bloquez les elements avec `position: fixed` et `position: sticky`**
+  
+La différence entre `fixed` et `sticky` c'est que ce premier rend l'élement collé sur la page quelque soit le scroll en hqut ou en bas mais le second lui rend l'element collé lorsque le scroll atteint sa position  et lorsque on monte plus haut que cet element il descend aussi.
