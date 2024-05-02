@@ -65,3 +65,43 @@
 .box_neuf{
     grid-column: 3/6;
 }
+.positionnement-relatif{
+    position: relative;
+    /* display: inline-block; */
+    right: 800px;
+    left: 80px;
+}
+.positionnement-absolu{
+    position: absolute;
+    left: 100px;
+    top: 300px;
+    background-color: rgb(187, 168, 168);
+}
+.bloc1, .bloc2, .bloc3{
+    display: flex;
+    background-color: aquamarine;
+    border: 10px double black;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.bloc1{
+    z-index: 2;
+}
+.bloc2{
+    background-color: antiquewhite;
+    top: 20px;
+    left: 120px;
+}
+.bloc3{
+    background-color: darksalmon;
+    top: 120px;
+    left: 30px;
+    z-index: 3;
+}

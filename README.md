@@ -239,6 +239,8 @@ On peut avoir un exemple:
 ![Introduction sur la proprieté display](supports/introduction_sur_la_propriete_display.png)
 ![Quelques valeurs du css display](supports/les_valeurs_de_display.png)
 
+La liste des valeurs possibles pour `display` est sur le lien : https://developer.mozilla.org/fr/docs/Web/CSS/display
+
 ### 17. LA PROPRIETE POSITION
 
 ![Introduction sur la propriete position](supports/introduction_sur_la_propriete_position.png)
@@ -262,4 +264,23 @@ La propriété position **`unset`** réinitialise la propriété afin que sa val
 
 - **Bloquez les elements avec `position: fixed` et `position: sticky`**
   
-La différence entre `fixed` et `sticky` c'est que ce premier rend l'élement collé sur la page quelque soit le scroll en hqut ou en bas mais le second lui rend l'element collé lorsque le scroll atteint sa position  et lorsque on monte plus haut que cet element il descend aussi.
+La différence entre `fixed` et `sticky` c'est que ce premier rend l'élement collé sur la page quelque soit le scroll en haut ou en bas mais le second lui rend l'element collé lorsque le scroll atteint sa position  et lorsque on monte plus haut que cet element il descend aussi.
+On peut tester au lien: https://codepen.io/nicolaspatschkowski/pen/dyezoyV?editors=1100
+
+- **Positionnement des élements avec `position: absolute` et `position: relative`**
+
+  - L'utilisation de `position: relative` est comme suit:
+![positionnement relatif ou absolu](supports/position_relative_ou_absolut.png)
+
+- L'utilisation de `position:absolute` est comme suit: 
+![positionnement absolu](supports/positionnement_absolu.png)
+![positionnement absolu suite](supports/positionnement_absolu_2.png)
+
+**La différence entre ces deux est que en `relative` les coordonnées(0,0) commencent là se trouve l'élement et à partir de là on peut maintenant le deplacer avec les proprieté supplementaires mais pour `absolute` les coordonnées(0,0) commencent au debut de la page HTML ou au début de l'élement parent ayant aussi la proprieté position, comme le montre l'image avant et c'est à partir de là qu'on peut commencer à le déplacer.**
+
+### 18. GESTION DES CHEVAUCHEMENTS EN CSS
+
+Quand nous avons deplacer nos éément avec la proprieté `position` surtout avec sa valeur `absolute`, on constate que les élements se placent au dessus des autres, ce chevauchement peut etre controlé comme suit:
+![gestion des chevauchements](supports/gestion%20des%20chevauchement.png)
+![Gestion des chevauchement suite](supports/gestion_des_chevauchement2.png)
+Alors dans les proprietés des éléments pour lesquels on veut controler le chevauchementon doit inserer la proprieté `z-index="valeur"`, la avleur du z-index est un nombre et l'element ayant la valeur la plus supérieure sera le plus au dessus des autres. 
