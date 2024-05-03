@@ -284,3 +284,30 @@ Quand nous avons deplacer nos éément avec la proprieté `position` surtout ave
 ![gestion des chevauchements](supports/gestion%20des%20chevauchement.png)
 ![Gestion des chevauchement suite](supports/gestion_des_chevauchement2.png)
 Alors dans les proprietés des éléments pour lesquels on veut controler le chevauchementon doit inserer la proprieté `z-index="valeur"`, la avleur du z-index est un nombre et l'element ayant la valeur la plus supérieure sera le plus au dessus des autres. 
+
+### 19. LES TABLEAUX
+
+On crée un tableau avec la balise `<table></table>` et il s'utilise comme suit:
+![Les tableaux](supports/les_tableaux.png)
+
+- **Ajout des bordures au tableau HTML grace à la proprieté CSS avec la proprieté `border`**
+![Ajout de bordure des cellules](supports/ajout_bordure_tableau.png)
+
+- **Coller les bordures du tableau HTML avec la proprieté CSS avec la proprieté `border-collapse`**
+![Collage des bordures des cellules](supports/collage_bordure_cellules.png)
+
+- **Donner un titre au tableau avec la balise html `<caption></caption>`**
+![Définition du titre du tableau](supports/titre_du_tableau.png)
+![Définition du titre suite](supports/titre_tableau2.png)
+
+- **Ajouter des marges à un tableau HTML avec la proprieté CSS `pading`**
+![Les marges dans les cellules du tableau](supports/les_marges_dans_tableau.png)
+
+- **Centrez un tableau HTML avec la proprieté CSS `margin`**
+![Centrez le tableau](supports/centrage_du_tableau.png)
+
+Pour des tableaux plus complexes, on aura besoin de faire un peu plus complexe aussi dans la création du tableau, comme suit:
+- **Structurez un grand tableau avec des balises html**
+![Structuration d'un grand tableau](supports/structuration_grand_tableau.png)
+![Structuration d'un gand tableau suite](supports/structuration_grand_tablea.png)
+![Structuration d'un grand tableau suite](supports/structuration_tableau3.png)
