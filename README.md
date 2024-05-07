@@ -311,3 +311,18 @@ Pour des tableaux plus complexes, on aura besoin de faire un peu plus complexe a
 ![Structuration d'un grand tableau](supports/structuration_grand_tableau.png)
 ![Structuration d'un gand tableau suite](supports/structuration_grand_tablea.png)
 ![Structuration d'un grand tableau suite](supports/structuration_tableau3.png)
+
+### 20. CREATION DES FORMULAIRES
+
+![Resumé sur les formulaires](supports/resume_formulaire.png)
+![Les checkbox](supports/checkbox_bouton.png)
+![Les radio boutons](supports/radio_bouton.png)
+![Zone de texte multiligne](supports/zone_texte_multiligne.png)
+![Zone de texte multiligne suite](supports/zone_texte_multiligne_suite.png)
+
+- **Les formats particuliers de la balise `<input>`**
+  
+![Types de input](supports/types_input.png)
+![Types de input suite](supports/types_input1.png)
+![Types de input suite](supports/types_input2.png)
+![Types de input suite](image.png)
